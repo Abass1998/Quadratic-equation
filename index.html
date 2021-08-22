@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadratic Equation Solver</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="top-wrapper">
+        <h1 class="hey">Hey!<span class="name-of-candidate"></span><span style='font-size:60px;'>&#128075;</span> </h1>
+        <hr>
+        <h1 class="quad simple" id="ratic">Solve Simple Quadratic Equation of the form: ax² + bx + c = 0</h1>
+        <a href="#werk" class="get-started">Get Started</a>
+    </div>
+
+    <h2 class="how-it-is-working">How it works</h2>
+    <div class="how-it-works" id="werk">
+        <div class="open-container">
+       <div class="distance">
+           <img src="images/open-box (1).png" alt="box">
+           <p>Open the box</p>
+       </div>
+       <div class="distance">
+        <img src="images/check (1).png" alt="input">
+        <p>Input values</p>
+    </div>
+    <div class="distance">
+        <img src="images/calculator.png" alt="calculate">
+        <p>calculate</p>
+    </div>
+        </div>
+    </div>
+
+
+<div class="boxes">
+ <button class="open-the-box box-final "><i class="fa fa-arrow-circle-down" style="font-size:36px"></i> <p>Open the Box</p></button>
+  <button class="open-the-box close-box "> <p>close the Box</p> <i class="fa fa-arrow-circle-up" style="font-size:36px"></i> </button>
+</div>
+
+    <div class="solve equation">
+        <div class="field"> <input type="text" placeholder="a value goes here" class="value-of-a"></div>
+    <div class="field"> <input type="text" placeholder="b value goes here" class="value-of-b"></div>
+    <div class="field"><input type="text" placeholder="c value goes here" class="value-of-c"></div>
+    <button class="submit-parameter field">CALCULATE</button>
+    <p class="answer"></p>
+    <button class="workings">Show workings</button>
+    <button class="hide">Hide workings</button>
+   
+    <div class="working-container">
+        <p class="equationn unique"></p>
+        <p class="simplification unique"></p>
+        <p class="finalValue unique"></p>
+    </div>
+    </div>
+
+    <footer>
+        <h3>Curated by a JavaScript Ninja!   &#128526;</h3>
+        <hr class="horizontal">
+        <p>	Alhabaze &#169; 2021</p>
+    </footer>
+
+    <div class="modal-container">
+        <div class="modal-box">
+            <div class="plus"> <h1 class="touch">X</h1></div>
+            <h1>Welcome</h1>
+            <p>This app helps you solve quadratic equation of the form:</p>
+            <p>ax² + bx + c = 0</p>
+            <p>To get started, enter your name</p>
+            <input type="text" class="input-your-name" placeholder="enter your name">
+            <button type="submit" class="modal-submit proceed">PROCEED</button>
+            <button type="submit" class="modal-now">Not Now</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

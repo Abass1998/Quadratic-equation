@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    font-family: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+} 
+/* .solve{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+} */
+input{
+    border: 2px solid black;
+    padding: 1%;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+input:focus{
+    outline: none;
+}
+.field{
+    margin-top: 3rem;
+}
+button{
+    padding: 1%;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.answer{
+    margin-top: 3rem;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.workings{
+    display: none;
+    margin-top: 3rem;
+}
+.working-container{
+    display: none;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 2rem;
+    margin: auto;
+}    
+.unique{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.hide{
+    display: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.top-wrapper{
+    height:auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    padding: 5% 3%;
+}
+.top-wrapper h1{
+    width: 55%;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.quad{
+    padding-top: 3%;
+}
+hr{
+    width: 100%;
+}
+.hey{
+    padding-bottom: 3%;
+}
+.get-started{
+    border: 2px solid white;
+    width: 12rem;
+    padding: 1%;
+    color: white;
+    margin: 0 auto;
+    border-radius: 50rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+.get-started:hover{
+   background-color: white;
+   color: black;
+}
+
+.how-it-works{
+    background-color: rgb(150, 150, 150);
+    width: 100%;
+    padding: 5% 3%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.how-it-is-working{
+    text-align: center;
+    background-color: rgb(150, 150, 150);
+    font-size: xx-large;
+    padding-top: 2rem;
+}
+img{
+    width: 10%;
+}
+.open-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.open-container p{
+    margin-top: 2%;
+}
+
+footer{
+    /* border: 2px solid black; */
+    text-align: center;
+    width: 100%;
+    padding: 5% 15%;
+    color: white;
+    margin-top: 3rem;
+    background-color: black;
+}
+
+.horizontal{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+.open-the-box{
+    border: 2px solid black;
+    width: 12rem;
+    padding: .5%;
+    margin: 0 auto;
+}
+.close-box{
+    display: none;
+}
+.boxes{
+    margin-top: 3rem;
+} 
+ .equation{
+    display: none;
+}
+.modal-container{
+    border: 2px solid black;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top:5% ;
+    color: white;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 1.5;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.modal-box{
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border-radius: 50rem; */
+}
+.modal-box p{
+    font-size: 22px;
+}
+.modal-submit{
+    background-image: linear-gradient(green,rgb(1, 34, 18));
+    cursor: pointer;
+}
+.modal-submit:hover{
+   opacity: .9;
+   
+}
+
+.modal-now{
+    background-color: rgb(192, 231, 192);
+    margin-bottom: 10%;
+    width: 20%;
+    cursor: pointer;
+}
+.plus{
+    display: flex;
+    /* border: 2px solid white; */
+    justify-content: flex-end;
+    width: 10%;
+    margin-left:auto ;
+}
+.plus h1{
+    font-size: 2rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.input-your-name{
+    padding: 1.5%;
+}
+.name-of-candidate{
+    margin-left: 10px;
+    color: green;
+}
+ @media screen and (max-width: 700px){
+    .modal-box{
+        width: 100%;
+        padding: 0 2%;
+        border: none;
+    }
+    .modal-submit{
+        width: 80%;
+    }
+    .input-your-name{
+        width: 80%;
+    }
+    .modal-now{
+        width: 50%;
+        
+    }
+
+    #ratic{
+        font-size: 25px;
+        width: 100%;
+        line-height: 1.5;
+        padding: 3%;
+    }
+    .top-wrapper{
+        padding: 0% 0%;
+    }
+    .top-wrapper h1{
+        width: 65%;
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    .open-container{
+        flex-direction: column;
+    }
+    .distance{
+        margin-top: 6rem;
+    }
+    .get-started{
+        margin-bottom: 3rem;
+        padding: 2%;
+    }
+    .modal-container{
+      height: 200vh;
+    }
+} 
